@@ -1,3 +1,5 @@
+<app-navbar></app-navbar>
+<app-banner></app-banner>
 <div class="d-flex flex-wrap justify-content-center p-5 bg-danger">
 
   <div class="pb-2" style="width: 30rem; ">
@@ -5,7 +7,7 @@
       id="carouselExampleControls"
       class="border-end border-1 border-dark carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-
+        
         <app-carousel
           *ngFor="let shoes of this.shoes_men_DB"
           title="{{ shoes.title }}"
