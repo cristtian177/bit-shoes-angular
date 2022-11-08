@@ -7,6 +7,7 @@ import { CarouselComponent } from './components/carousel-item/carousel.component
 import { HomeComponent } from './routes/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { OutletComponent } from './components/outlet/outlet.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BannerComponent } from './components/banner/banner.component';
     HomeComponent,
     NavbarComponent,
     BannerComponent,
+    OutletComponent,
   ],
   imports: [
     BrowserModule,
