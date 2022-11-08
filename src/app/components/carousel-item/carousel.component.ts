@@ -10,6 +10,7 @@ export class CarouselComponent implements OnInit {
   @Input() title: string | undefined;
   @Input() image: string | undefined;
   @Input() description: string | undefined;
+  @Input() class: string | undefined;
 
   constructor() { }
 
